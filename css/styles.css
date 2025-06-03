@@ -33,6 +33,23 @@ a {
   text-decoration: none;
 }
 
+.social-contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.social-item {
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  padding: 12px;
+  fill: #f4f4fd;
+}
+
 /*header*/
 
 .logo {
@@ -137,7 +154,7 @@ a {
 
 /* hero */
 .hero {
-  /* background-color: #2e2f42; */
+  background-color: #2e2f42;
   height: 600px;
   text-align: center;
   display: grid;
@@ -145,10 +162,10 @@ a {
   justify-content: space-around;
   align-items: center;
   padding: 188px 0;
-  background-image: url("../images/hero-pic.jpg"),
-    linear-gradient(rgba(46, 47, 66, 0.7));
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7)),
+    url("../images/hero-pic.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
 }
 
@@ -225,6 +242,10 @@ a {
 .goal-item {
   width: calc(100% - 24 * 3) / 4;
   width: 264px;
+}
+
+.goal-item {
+  align-items: center;
 }
 
 .goal-subtitle {
