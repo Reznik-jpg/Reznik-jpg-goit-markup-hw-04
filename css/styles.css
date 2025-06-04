@@ -397,7 +397,7 @@ ol {
 }
 
 .container .footer-box {
-  align-items: ;
+  display: flex;
 }
 
 .text-footer {
@@ -407,6 +407,10 @@ ol {
   color: #f4f4fd;
   text-align: left;
   width: 294px;
+}
+
+.footer.social-list {
+  box-sizing: border-box;
 }
 
 .other-title {
