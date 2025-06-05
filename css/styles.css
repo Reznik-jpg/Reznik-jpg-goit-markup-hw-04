@@ -368,6 +368,8 @@ a {
 
 .portfol-item:hover .portfol-hiden-text {
   transform: translate(0);
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .portfol-pic-hiden-text {
@@ -382,9 +384,8 @@ a {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   background-color: #4d5ae5;
-  padding-top: 40px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding: 40px 32px;
+
   top: 0px;
   height: 100%;
   transform: translateY(100%);
@@ -438,6 +439,7 @@ a {
 .page-footer {
   background-color: #2e2f42;
   padding: 100px 0 100px;
+  display: flex;
 }
 
 .container .footer-box {
@@ -453,9 +455,9 @@ a {
   width: 294px;
 }
 
-.footer.social-list {
+.social-contacts .footer-contacts {
   display: flex;
-  box-sizing: border-box;
+  gap: 16px;
 }
 
 .other-title {
@@ -464,4 +466,5 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
 }
