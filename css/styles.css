@@ -423,9 +423,6 @@ a {
 
 /* footer */
 
-.footer-box {
-}
-
 .footer-logo .logo-part {
   color: #f4f4fd;
 }
@@ -440,7 +437,7 @@ a {
   padding: 100px 0 100px;
 }
 
-.container .footer-box {
+.footer-box {
   display: flex;
   align-items: baseline;
 }
