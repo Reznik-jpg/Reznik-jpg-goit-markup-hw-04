@@ -423,9 +423,8 @@ a {
 
 /* footer */
 
-/* .footer-box {
-  display: flex;
-  } */
+.footer-box {
+}
 
 .footer-logo .logo-part {
   color: #f4f4fd;
@@ -439,11 +438,11 @@ a {
 .page-footer {
   background-color: #2e2f42;
   padding: 100px 0 100px;
-  display: flex;
 }
 
 .container .footer-box {
   display: flex;
+  align-items: baseline;
 }
 
 .text-footer {
