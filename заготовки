@@ -28,3 +28,15 @@ background-color: #4d5ae5;  -->
     height: 24px;
     display: inline-block;
   } -->
+
+<!-- /* .visually-hidden {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+    visibility: hidden;
+    position: absolute;
+    white-space: nowrap;
+  } */ -->
