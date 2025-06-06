@@ -171,7 +171,7 @@ a {
 
 /* hero */
 
-.hero-cont {
+.container.hero-cont {
   background-color: #2e2f42;
   height: 600px;
   text-align: center;
@@ -269,6 +269,7 @@ a {
 }
 
 .goal-icons {
+  display: flex;
   box-sizing: border-box;
   border: 1px solid #8e8f99;
   border-radius: 4px;
