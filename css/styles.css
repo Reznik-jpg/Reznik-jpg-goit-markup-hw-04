@@ -171,7 +171,7 @@ a {
 
 /* hero */
 
-.container.hero-cont {
+.hero {
   background-color: #2e2f42;
   height: 600px;
   text-align: center;
@@ -190,6 +190,26 @@ a {
   background-size: cover;
   max-width: 1440px;
 }
+
+/* .container.hero-cont {
+  background-color: #2e2f42;
+  height: 600px;
+  text-align: center;
+  display: grid;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("../images/hero-pic.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1440px;
+} */
 
 .hero-title {
   font-size: 56px;
